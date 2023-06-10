@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Konversi Suhu</header>
+      <form>
+        <div class="amount">
+          <p>Masukkan Angka</p>
+          <input type="text" value="0" />
+        </div>
+        <div class="drop-list">
+          <div class="from">
+            <p>From</p>
+            <div class="select-box">
+              <select id="fromSelect">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+              </select>
+            </div>
+          </div>
+          <div class="to">
+            <p>To</p>
+            <div class="select-box">
+              <select id="toSelect">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="konversi-suhu">Hasil Konversi Suhu</div>
+        <button type="button" id="konversiBtn">Konversi Suhu</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
